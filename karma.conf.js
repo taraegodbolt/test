@@ -27,7 +27,7 @@ module.exports = function (config) {
         base: 'Chrome',
         flags: ['--no-sandbox']
       }
-    }
+    },
     reporters: ['progress', 'kjhtml'],
     port: 9876,
     colors: true,
