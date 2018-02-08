@@ -20,3 +20,4 @@ install:
   - yarn install
 script:
   - echo asdsadsd
+  - yarn test
