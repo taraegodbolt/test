@@ -20,4 +20,5 @@ install:
   - yarn install
 script:
   - echo asdsadsdasd
+  - yarn build
   - yarn test
