@@ -19,5 +19,5 @@ branches:
 install:
   - yarn install
 script:
-  - echo asdsadsd
+  - echo asdsadsdasd
   - yarn test
