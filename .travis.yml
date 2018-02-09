@@ -22,7 +22,7 @@ branches:
   only:
     - master
 
-obs:
+jobs:
   include:
     - stage: test
       script:
