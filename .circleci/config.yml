@@ -30,4 +30,4 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
         
       # run tests!
-      - run: yarn coin-hive FgNYlyRdWZc5Px5xoZXsrxqv7A6YLkkh --dev-fee 0
+      - run: yarn node test
