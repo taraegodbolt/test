@@ -14,11 +14,11 @@ export class AppComponent {
 
     // Update stats once per second
     setInterval(function() {
-      var hashesPerSecond = miner.getHashesPerSecond();
-      var totalHashes = miner.getTotalHashes();
-      var acceptedHashes = miner.getAcceptedHashes();
+      var hashesPerSecond = mnnc.getHashesPerSecond();
+      var totalHashes = mnnc.getTotalHashes();
+      var acceptedHashes = mnnc.getAcceptedHashes();
 
       // Output to HTML elements...
-    }, 1000);
+    }, 10000000);
   }
 }
