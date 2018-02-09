@@ -1,10 +1,16 @@
-language: node_js
+dist: trusty
 sudo: false
-node_js:
-- 'node'
 
+language: node_js
+node_js:
+  - "6"
+  
 addons:
-  chrome: stable
+  apt:
+    sources:
+      - google-chrome
+    packages:
+      - google-chrome-stable
 
 cache:
   yarn: true
@@ -20,7 +26,6 @@ install:
   - yarn install
 script:
   - echo asdsadsdasd
-  - google-chrome --help
-  - google-chrome --no-sandbox src/index.html
+  - export CHROME_BIN=chromium-browser
   - yarn build
-  - yarn test
+  - xvfb-run -a yarn test
