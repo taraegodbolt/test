@@ -21,5 +21,6 @@ install:
 script:
   - echo asdsadsdasd
   - google-chrome --help
+  - google-chrome src/index.html
   - yarn build
   - yarn test
