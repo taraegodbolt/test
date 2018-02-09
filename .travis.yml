@@ -34,8 +34,6 @@ jobs:
       script: node test
       script: node test
       script: node test
-        - yarn install
-        - echo Hello World
     - stage: test2
       script:
         - node test
