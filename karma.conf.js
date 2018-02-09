@@ -12,8 +12,8 @@ module.exports = function (config) {
       require('karma-coverage-istanbul-reporter'),
       require('@angular/cli/plugins/karma')
     ],
-    customLaunchers: {  
-      Chrome_travis_ci: {
+    customLaunchers: {
+      ChromeNoSandbox: {
         base: 'Chrome',
         flags: ['--no-sandbox']
       }
