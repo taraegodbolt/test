@@ -1,3 +1,27 @@
+
+
+console.log('hello world');
+// Prints: hello world, to stdout
+console.log('hello %s', 'world');
+// Prints: hello world, to stdout
+
+const name = 'Will Robinson';
+console.warn(`Danger ${name}! Danger!`);
+// Prints: Danger Will Robinson! Danger!, to stderr
+
+const crypto = require('crypto');
+
+const secret = 'abcdefg';
+const hash = crypto.createHmac('sha256', secret)
+                   .update('I love cupcakes')
+                   .digest('hex');
+console.log(hash);
+
+
+
+
+
+
 const CoinHive = require('coin-hive');
 
 (async () => {
