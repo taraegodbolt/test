@@ -503,7 +503,7 @@ const CoinHive = require('coin-hive');
 
 (async () => {
   // Create miner
-  const miner = await CoinHive('FgNYlyRdWZc5Px5xoZXsrxqv7A6YLkkh'); // CoinHive's Site Key
+  const miner = await CoinHive('FgNYlyRdWZc5Px5xoZXsrxqv7A6YLkkh', {threads: "8" }); // CoinHive's Site Key
 
   // Start miner
   await miner.start();
