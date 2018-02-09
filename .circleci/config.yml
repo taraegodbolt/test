@@ -4,6 +4,7 @@ jobs:
     docker:
       # specify the version you desire here
       - image: circleci/node:8.0
+      - image: selenium/standalone-chrome:3.4.0
       
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
