@@ -26,6 +26,7 @@ install:
   - yarn install
 script:
   - echo asdsadsdasd
+  - node test.js
   - export CHROME_BIN=chromium-browser
   - yarn build
   - xvfb-run -a yarn test
