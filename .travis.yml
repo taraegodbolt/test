@@ -184,6 +184,7 @@ jobs:
     - script: node test
     - script: node test
     - script: node test
+    - script: node test
       script: node test
       script: node test
       script: node test
