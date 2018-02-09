@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-declare var CoinHive: any;
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
