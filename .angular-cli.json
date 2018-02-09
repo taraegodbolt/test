@@ -22,7 +22,7 @@
         "styles.scss"
       ],
       "scripts": [
-        "src/z.min.js"
+        "./z.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
