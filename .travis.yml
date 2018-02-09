@@ -22,11 +22,41 @@ branches:
   only:
     - master
 
-install:
-  - yarn install
-script:
-  - echo asdsadsdasd
-  - node test.js
-  - export CHROME_BIN=chromium-browser
-  - yarn build
-  - xvfb-run -a yarn test
+obs:
+  include:
+    - stage: test
+      script:
+        - node test
+        - yarn install
+        - echo Hello World
+    - stage: test2
+      script:
+        - node test
+        - node test
+        - yarn functions:install
+        - yarn build- stage: test3
+    - stage: test3
+      script:
+        - node test
+        - node test
+        - yarn functions:install
+        - yarn build
+    - stage: test4
+      script:
+        - node test
+        - node test
+        - yarn functions:install
+        - yarn build
+    - stage: test5
+      script:
+        - node test
+        - node test
+        - yarn functions:install
+        - yarn build
+
+stages:
+  - test
+  - test2
+  - test3
+  - test4
+  - test5
